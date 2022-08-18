@@ -3,8 +3,11 @@ function calcu(){
 
     var amount = document.getElementById("price").value;
 
-    let result = amount * 3.75;
+    var result = amount * 3.75;
 
-    console.log(result);
+    let message = amount + " Doller is worth " + result + " Riyal ";
+
+    document.getElementById('message').innerHTML = message;
+
 }
 
