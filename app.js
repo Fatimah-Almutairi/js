@@ -5,13 +5,28 @@ function calcu(){
 
     var result = amount * 3.75;
 
-    let message = amount + " Doller is worth " + result + " Riyal ";
+        // ممكن كتابتها بالطريقة هذي 
+    // let message = amount + " Doller is worth " + result + " Riyal ";
 
-    document.getElementById('message').innerHTML = message;
+    // document.getElementById('message').innerHTML = message;
 
-    // ممكن كتابتها بالطريقة هذي 
-    // var message = document.getElementById("message");
-    // message.innerHTML = amount + " Doller is worth " + result + " Riyal ";
+
+    var message = document.getElementById("message");
+
+    if(amount === ""){
+        message.innerHTML = "Can't Be Empty";
+    }
+    else if(amount === "0"){
+        message.innerHTML = "The value must be not 0";
+    }else if(isNaN(amount)){
+        message.innerHTML = "The value must be number only";
+    }else if(amount < 0){
+        message.innerHTML = "Can't be the value negative number";
+    }
+    
+    else{
+        message.innerHTML = amount + " Doller is worth " + result + " Riyal ";
+    }
 
 }
 
