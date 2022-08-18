@@ -9,5 +9,9 @@ function calcu(){
 
     document.getElementById('message').innerHTML = message;
 
+    // ممكن كتابتها بالطريقة هذي 
+    // var message = document.getElementById("message");
+    // message.innerHTML = amount + " Doller is worth " + result + " Riyal ";
+
 }
 
