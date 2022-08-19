@@ -49,6 +49,9 @@ friends.splice(1, 0, "Yasser");
 console.log(friends);
 console.log(friends.length);
 
+let p = friends.pop();
+console.log(p)
+
 // push to add in the end 
 // pop delete from end the array
 // unshift add item in start for array
