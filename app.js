@@ -64,7 +64,20 @@ console.log(friends);
 // unshift add item in start for array
 // shift delete the first item in array
 
+var shortFri = friends.slice(1,4); // فايدته يقص المصفوفه من اي انديكس الى وين ويخليها اصغر 
+console.log(shortFri); 
 
+var otherbro = [
+    "Faisl",
+    "Abdullah",
+    "Ahmed",
+    "Youssef",
+    "Bassam"
+]
+// يفيد يدمج اكثر من مصفوفه داخل مصفوفه وحده كبيرة
+
+var allBro = friends.concat(otherbro);  // وممكن اضافه اكثر من مثفوفه بعد الفاصله داخل الاقواس
+console.log(allBro)
 // friends = friends.toLocaleString();  يحول المصفوفه الى نص 
 friends = friends.join(); //  وممكن وضع اللي ابيه بين الكلام وسط القوسين غير الفاصله لكن يكون بين تنصيص
 
