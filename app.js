@@ -33,7 +33,7 @@ function calcu(){
 var friends = [
     "Fatimah",
     "Mona",
-    "BAssam",
+    "Bassam",
     "Ayshah"
 ];
 
@@ -49,8 +49,15 @@ friends.splice(1, 0, "Yasser");
 console.log(friends);
 console.log(friends.length);
 
-let p = friends.pop();
-console.log(p)
+// let p = friends.pop();
+// console.log(p)
+
+friends.sort();
+console.log(friends);
+
+friends.reverse();
+console.log(friends);
+
 
 // push to add in the end 
 // pop delete from end the array
