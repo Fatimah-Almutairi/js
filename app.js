@@ -42,3 +42,14 @@ if(Array.isArray(friends)){
 }else{
     console.log("This is Not Array ");
 }
+
+friends = friends.toLocaleString();
+console.log(friends);
+
+var myDate = new Date();
+
+console.log(myDate);
+
+var myString = myDate.toLocaleString();
+
+console.log(myString);
