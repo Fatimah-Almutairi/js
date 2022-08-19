@@ -59,3 +59,5 @@ console.log(myDate);
 var myString = myDate.toLocaleString();
 
 console.log(myString);
+
+console.log(otherbro.toString());
