@@ -49,6 +49,12 @@ friends.splice(1, 0, "Yasser");
 console.log(friends);
 console.log(friends.length);
 
+// push to add in the end 
+// pop delete from end the array
+// unshift add item in start for array
+// shift delete the first item in array
+
+
 // friends = friends.toLocaleString();  يحول المصفوفه الى نص 
 friends = friends.join(); //  وممكن وضع اللي ابيه بين الكلام وسط القوسين غير الفاصله لكن يكون بين تنصيص
 
