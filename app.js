@@ -43,6 +43,12 @@ if(Array.isArray(friends)){
     console.log("This is Not Array ");
 }
 
+
+friends.splice(1, 0, "Yasser");
+
+console.log(friends);
+console.log(friends.length);
+
 // friends = friends.toLocaleString();  يحول المصفوفه الى نص 
 friends = friends.join(); //  وممكن وضع اللي ابيه بين الكلام وسط القوسين غير الفاصله لكن يكون بين تنصيص
 
