@@ -43,7 +43,10 @@ if(Array.isArray(friends)){
     console.log("This is Not Array ");
 }
 
-friends = friends.toLocaleString();
+// friends = friends.toLocaleString();  يحول المصفوفه الى نص 
+friends = friends.join(); //  وممكن وضع اللي ابيه بين الكلام وسط القوسين غير الفاصله لكن يكون بين تنصيص
+
+// friends = friends.join(" - ");
 console.log(friends);
 
 var myDate = new Date();
