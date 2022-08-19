@@ -30,3 +30,15 @@ function calcu(){
 
 }
 
+var friends = [
+    "Fatimah",
+    "Mona",
+    "BAssam",
+    "Ayshah"
+];
+
+if(Array.isArray(friends)){
+    console.log("this is array");
+}else{
+    console.log("This is Not Array ");
+}
