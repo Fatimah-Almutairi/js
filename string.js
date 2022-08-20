@@ -9,7 +9,7 @@ console.log(typeof(myString));
 console.log(mySplittedString);
 console.log(typeof(mySplittedString));
 
-var mySlicedString = myString.slice(1);
+var mySlicedString = myString.slice(1); // بين القوسين اعلمه من وين يبدا يقص النص وممكن تحديد النهاية وممكن لا
 // اطلع شريحه من النص لمتغير جديد ممكن استفيد من الجزء اللي اخذته من النص باي طريقه
 
 console.log(mySlicedString);
