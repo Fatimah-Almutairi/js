@@ -20,7 +20,7 @@ for(var i = 0; i <= 10; i++){
 ///------------------------
 
 var myCar = {
-    name: "Acoard",
+    name: "Accord",
     type: "sedan",
     year: 2019,
     color: "White"
