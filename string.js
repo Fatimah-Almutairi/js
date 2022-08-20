@@ -41,4 +41,9 @@ console.log(myReplaced);
 // تستبدل القيمه الاولى بقيمه جديدة
 // في شي اسمه charcodeAt فايدته يعطي رقم اللميز حق الحرف او الرقم بشكل عالمي اتوقع بس يكون سبيشل للرقم هذا فقط او الحرف هذا بس 
 
+var nameCode = String.fromCharCode(70, 97, 116, 105, 109, 97, 104);  // فايدته يحول من الارقام المميزه الى الحروف 
+console.log(nameCode);
 
+
+var AllMe = "Hello, I Try".concat(" ", "Learn Js and Php"); //  يجمع النصوص مع بعض 
+console.log(AllMe);
