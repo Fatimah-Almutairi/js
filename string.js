@@ -35,3 +35,10 @@ console.log(myChar);
 
 var myChart = myString.charAt(myString.length - 1);  // بيرجع رقم الانديكس الاخير فبالتالي اخر حرف هو اللي الطول ناقص واحد
 console.log(myChart);
+
+var myReplaced = myString.replace("Dream", "Hope");
+console.log(myReplaced);
+// تستبدل القيمه الاولى بقيمه جديدة
+// في شي اسمه charcodeAt فايدته يعطي رقم اللميز حق الحرف او الرقم بشكل عالمي اتوقع بس يكون سبيشل للرقم هذا فقط او الحرف هذا بس 
+
+
