@@ -56,3 +56,7 @@ console.log(upcase);
 var myNew = myString.trim();// فايدته اذا فيه مسافات في النص بالبدايه او النهاية يشيلها 
 
 console.log("Go To => " + myString.link("https://www.google.com")); // فايدته يحط لينك على النص اللي بالمتغير 
+
+
+/// وممكن وضع اكثر من شيء في نفس المتغير يعني 
+var newVal = myString.split("").replace("D", 0).toString(); // واي شي ممكن احتاجه احطة بهالطريقة
