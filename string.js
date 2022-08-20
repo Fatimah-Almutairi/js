@@ -47,3 +47,12 @@ console.log(nameCode);
 
 var AllMe = "Hello, I Try".concat(" ", "Learn Js and Php"); //  يجمع النصوص مع بعض 
 console.log(AllMe);
+
+var upcase = myString.toUpperCase(); // فايدته يحولهم كلهم كابتيل وممكن استعمال الشكل الثاني يحولهم كلهم سمول
+
+console.log(upcase); 
+
+
+var myNew = myString.trim();// فايدته اذا فيه مسافات في النص بالبدايه او النهاية يشيلها 
+
+console.log("Go To => " + myString.link("https://www.google.com")); // فايدته يحط لينك على النص اللي بالمتغير 
