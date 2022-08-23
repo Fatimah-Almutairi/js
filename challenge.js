@@ -15,3 +15,13 @@ console.log(Math.round(d));
 
 console.log(Math.ceil(b)/ Math.ceil(d));
 console.log(Math.ceil(--b)/Math.ceil(d));
+
+// --------------------------------------
+
+let ab = "Elzero web school";
+
+console.log(ab.charAt(2).toUpperCase() + ab.slice(3, 6));
+
+console.log(ab.substring(13, 14).repeat(8).toUpperCase());
+
+console.log(ab.split())
