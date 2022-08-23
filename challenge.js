@@ -13,5 +13,5 @@ console.log(Math.trunc(d));
 console.log(Number.parseInt(d));
 console.log(Math.round(d));
 
-console.log((Math.ceil(--b)/ Math.ceil(d)));
-console.log();
+console.log(Math.ceil(b)/ Math.ceil(d));
+console.log(Math.ceil(--b)/Math.ceil(d));
