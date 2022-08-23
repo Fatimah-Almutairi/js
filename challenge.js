@@ -24,4 +24,8 @@ console.log(ab.charAt(2).toUpperCase() + ab.slice(3, 6));
 
 console.log(ab.substring(13, 14).repeat(8).toUpperCase());
 
-console.log(ab.split())
+console.log(ab.substring(0, 7).split())
+
+console.log(ab.substr(0,6), ab.substr(-6));
+
+console.log(ab.charAt(0).toLowerCase() + ab.slice(1, length-1).toUpperCase() + ab.slice(-1).toLowerCase())
