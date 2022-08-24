@@ -32,9 +32,9 @@ console.log(ab.charAt(0).toLowerCase() + ab.slice(1, length-1).toUpperCase() + a
 
 // ==========================================
 
-let st = "Elzero Web School";
+let st = "Elzero Web School" ;
 
-if ((st.length*2).toString()=== "34") {
+if ((st.length*2).toString() === "34") {
 
   console.log("Good");
 }
