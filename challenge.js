@@ -28,4 +28,29 @@ console.log(ab.substring(0, 7).split())
 
 console.log(ab.substr(0,6), ab.substr(-6));
 
-console.log(ab.charAt(0).toLowerCase() + ab.slice(1, length-1).toUpperCase() + ab.slice(-1).toLowerCase())
+console.log(ab.charAt(0).toLowerCase() + ab.slice(1, length-1).toUpperCase() + ab.slice(-1).toLowerCase());
+
+// ==========================================
+
+let st = "Elzero Web School";
+
+if ((st.length*2).toString()=== "34") {
+  console.log("Good");
+}
+
+// W Position May Change
+if (st[st.indexOf("W")].toLowerCase() === "w") {
+  console.log("Good");
+}
+
+if (st.length !== "string") {
+  console.log("Good");
+}
+
+if (typeof (st.length) === "number") {
+  console.log("Good");
+}
+
+if (st.slice(0,6)+st.slice(0,6) === "ElzeroElzero") {
+  console.log("Good");
+}
