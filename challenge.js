@@ -47,14 +47,16 @@ if (st[st.indexOf("W")].toLowerCase() === "w") {
 }
 
 if (st.length !== "string") {
-    
+
   console.log("Good");
 }
 
 if (typeof (st.length) === "number") {
+
   console.log("Good");
 }
 
 if (st.slice(0,6) + st.slice(0,6) === "ElzeroElzero") {
+    
   console.log("Good");
 }
