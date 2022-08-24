@@ -51,6 +51,6 @@ if (typeof (st.length) === "number") {
   console.log("Good");
 }
 
-if (st.slice(0,6)+st.slice(0,6) === "ElzeroElzero") {
+if (st.slice(0,6) + st.slice(0,6) === "ElzeroElzero") {
   console.log("Good");
 }
