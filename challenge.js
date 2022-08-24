@@ -56,7 +56,7 @@ if (typeof (st.length) === "number") {
   console.log("Good");
 }
 
-if (st.slice(0,7) + st.slice(0,7) === "ElzeroElzero") {
+if (st.slice(0,7) + st.slice(0,7) === "Elzero Elzero") {
 
   console.log("Good");
 }
