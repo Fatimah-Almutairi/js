@@ -60,3 +60,5 @@ if (st.slice(0,7) + st.slice(0,7) === "Elzero Elzero") {
 
   console.log("Good");
 }
+
+// ============================ switch
