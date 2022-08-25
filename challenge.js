@@ -71,4 +71,17 @@ let counter = 3;
 
 let my = [ "Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer" ];
 
-console.log()
+// console.log(my.slice[][])
+
+
+console.log(my.slice(zero, ++counter).reverse());
+
+//2
+ console.log(my.slice(my.shift(), --counter).sort());
+
+
+//3
+console.log(my.splice(zero,(counter+counter),"Elzero"));
+
+
+console.log(my.splice(zero, ++zero, "rO"))
