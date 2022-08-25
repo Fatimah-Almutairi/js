@@ -74,7 +74,7 @@ let my = [ "Ahmed", "Mazero", "Elham", "Osama", "Gamal", "Ameer" ];
 // console.log(my.slice[][])
 
 
-console.log(my.slice());
+console.log(my.slice(zero, ++counter).reverse());
 
 //2
  console.log(my.slice(my.shift(), --counter).sort());
