@@ -84,4 +84,4 @@ console.log(my.slice(zero, ++counter).reverse());
 console.log(my.splice(zero,(counter+counter),"Elzero"));
 
 
-console.log(my.splice(zero, ++zero, "rO"))
+console.log(my.splice(zero, ++zero, "rO"));
