@@ -85,3 +85,7 @@ console.log(my.splice(zero,(counter+counter),"Elzero"));
 
 
 console.log(my.splice(zero, ++zero, "rO"));
+
+// ================================================ LOOP
+
+let myAdmins = []
