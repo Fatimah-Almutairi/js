@@ -89,4 +89,4 @@ console.log(my.splice(zero, ++zero, "rO"));
 // ================================================ LOOP
 
 let myAdmins = ["Ahmad", "Osama", "Sayed", "Stop", "Samera"];
-let myEmploees = ["Amgad", "Samah", ""]
+let myEmploees = ["Amgad", "Samah", "Ameer", "Omar"]
