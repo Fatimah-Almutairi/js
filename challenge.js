@@ -100,6 +100,8 @@ for(let i = 0; i <myAdmins.length; i++){
     }else{
         // console.log(myAdmins[i])
     }
+    document.write(`<div> We Have ${myAdmins.length} Admins </div>`);
+
 }
 document.write('<hr>');
 
