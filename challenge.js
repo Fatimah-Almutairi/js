@@ -94,7 +94,7 @@ let myEmploees = ["Amgad", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia"]
 document.write(`<div> We Have x Admins </div>`);
 
 for(let i = 0; i <myAdmins.length; i++){
-    console.log(myAdmins[i]);
+    // console.log(myAdmins[i]);
     if( i === 'Stop'){
         break;
     }
