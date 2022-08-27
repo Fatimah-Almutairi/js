@@ -97,7 +97,6 @@ for(let i = 0; i <myAdmins.length; i++){
     console.log(myAdmins[i]);
     if( i === 'Stop'){
         break;
-        
     }
 
 }
