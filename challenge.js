@@ -100,5 +100,6 @@ for(let i = 0; i <myAdmins.length; i++){
     }else{
         // console.log(myAdmins[i])
     }
-
 }
+document.write('<hr>');
+
