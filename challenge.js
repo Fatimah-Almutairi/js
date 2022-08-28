@@ -111,10 +111,32 @@ console.log(my.splice(zero, ++zero, "rO"));
 // ================================== Functions
 
 function showDetails(username, age, status){
-    if(username === "Fatimah"){
+    info = [username, age, status];
+    for(let i = 0; i < 3; i++){
+    if(typeof info[i] === "string"){
         console.log(true)
     }
     document.write(`<div> Hello ${username}, Your Age Is ${age}, You Are ${status} For Hire </div>`);
 }
+}
 
 showDetails(38, "Fatimah", true);
+
+
+function showDetails (a, b, c) {
+    info = [a, b, c];
+    for (i = 0; i < 3; i++) {
+    if (typeof info[i] === "string"){
+    first = info[i];
+    } else if (typeof info[i] === "number"){
+    second = info[i];
+    } else if (typeof info[i] === "boolean"){
+    if ( info[i] === true){
+    third = "Available";
+    } else{ 
+    third = "Not Available";
+    }
+    }
+    }
+    }
+    showDetails( false, "Ahmed", 19);
