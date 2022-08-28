@@ -88,28 +88,24 @@ console.log(my.splice(zero, ++zero, "rO"));
 
 // ================================================ LOOP
 
-let myAdmins = ["Ahmad", "Osama", "Sayed", "Stop", "Samera"];
-let myEmploees = ["Amgad", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia"];
+// let myAdmins = ["Ahmad", "Osama", "Sayed", "Stop", "Samera"];
+// let myEmploees = ["Amgad", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia"];
 
-document.write(`<div> We Have x Admins </div>`);
+// document.write(`<div> We Have x Admins </div>`);
 
-for(let i = 0; i <myAdmins.length; i++){
-    // console.log(myAdmins[i]);
-    let result ;
-    if( i === 'Stop'){
-        // break;
-        // result += myAdmins.length;
-        // return `<div> We Have ${result} Admins </div>`;
-    }else{
-        // console.log(myAdmins[i])
-    }
-    document.write(`<div> We Have ${myAdmins.length} Admins </div>`);
+// for(let i = 0; i <myAdmins.length; i++){
+//     // console.log(myAdmins[i]);
+//     let result ;
+//     if( i === 'Stop'){
+//         // break;
+//         // result += myAdmins.length;
+//         // return `<div> We Have ${result} Admins </div>`;
+//     }else{
+//         // console.log(myAdmins[i])
+//     }
+//     document.write(`<div> We Have ${myAdmins.length} Admins </div>`);
 
-}
-document.write('<hr>');
+// }
+// document.write('<hr>');
 
-var h = function a(){
-    return 40;
-}
-console.log(typeof a())
-
+// ================================== Functions
