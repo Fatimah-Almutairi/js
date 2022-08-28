@@ -110,6 +110,8 @@ console.log(my.splice(zero, ++zero, "rO"));
 
 // ================================== Functions
 
-function showDetails(){
-    
+function showDetails(username, age, status){
+    document.write(`<div> Hello ${username}, Your Age Is ${age}, You Are ${status} For Hire </div>`);
 }
+
+showDetails(38, "Fatimah", true);
