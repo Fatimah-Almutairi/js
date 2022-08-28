@@ -133,6 +133,7 @@ function showDetails(username, age, status){
 showDetails(26, "Fatimah", true);
 showDetails(27, true, "Fatimah");
 showDetails(false, "Fatimah", 27);
+showDetails("Fatimah", false, 26)
 
 
 
