@@ -111,6 +111,9 @@ console.log(my.splice(zero, ++zero, "rO"));
 // ================================== Functions
 
 function showDetails(username, age, status){
+    if(username === "Fatimah"){
+        console.log(true)
+    }
     document.write(`<div> Hello ${username}, Your Age Is ${age}, You Are ${status} For Hire </div>`);
 }
 
