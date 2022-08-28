@@ -124,7 +124,6 @@ function showDetails(username, age, status){
             status = "Not Available";
         }
     }
-
     }
     document.write(`<div> Hello ${username}, Your Age Is ${age}, You Are ${status} For Hire </div>`);
 }
@@ -133,7 +132,7 @@ function showDetails(username, age, status){
 showDetails(26, "Fatimah", true);
 showDetails(27, true, "Fatimah");
 showDetails(false, "Fatimah", 27);
-showDetails("Fatimah", false, 26)
+showDetails("Fatimah", false, 26);
 
 
 
