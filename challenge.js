@@ -109,3 +109,7 @@ console.log(my.splice(zero, ++zero, "rO"));
 // document.write('<hr>');
 
 // ================================== Functions
+
+function showDetails(){
+    
+}
