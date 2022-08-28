@@ -95,8 +95,11 @@ document.write(`<div> We Have x Admins </div>`);
 
 for(let i = 0; i <myAdmins.length; i++){
     // console.log(myAdmins[i]);
+    let result ;
     if( i === 'Stop'){
-        break;
+        // break;
+        // result += myAdmins.length;
+        // return `<div> We Have ${result} Admins </div>`;
     }else{
         // console.log(myAdmins[i])
     }
@@ -104,4 +107,9 @@ for(let i = 0; i <myAdmins.length; i++){
 
 }
 document.write('<hr>');
+
+var h = function a(){
+    return 40;
+}
+console.log(typeof a())
 
