@@ -113,30 +113,75 @@ console.log(my.splice(zero, ++zero, "rO"));
 function showDetails(username, age, status){
     info = [username, age, status];
     for(let i = 0; i < 3; i++){
-    if(typeof info[i] === "string"){
-        console.log(true)
+    if(typeof info[i] === "string"){ 
+        username = info[i];
+    }else if(typeof info[i] === "number"){
+        age = info[i];
+    }else if(typeof info[i] === "boolean"){
+        if(info[i] === true){
+            status = "Available";
+        }else{
+            status = "Not Available";
+        }
+    }
+
     }
     document.write(`<div> Hello ${username}, Your Age Is ${age}, You Are ${status} For Hire </div>`);
 }
-}
-
-showDetails(38, "Fatimah", true);
 
 
-function showDetails (a, b, c) {
-    info = [a, b, c];
-    for (i = 0; i < 3; i++) {
-    if (typeof info[i] === "string"){
-    first = info[i];
-    } else if (typeof info[i] === "number"){
-    second = info[i];
-    } else if (typeof info[i] === "boolean"){
-    if ( info[i] === true){
-    third = "Available";
-    } else{ 
-    third = "Not Available";
-    }
-    }
-    }
-    }
-    showDetails( false, "Ahmed", 19);
+showDetails(26, "Fatimah", true);
+showDetails(27, true, "Fatimah");
+showDetails(false, "Fatimah", 27);
+
+
+
+// function showDetails (a, b, c) {
+//     info = [a, b, c];
+//     for (i = 0; i < 3; i++) {
+//     if (typeof info[i] === "string"){
+//     first = info[i];
+//     } else if (typeof info[i] === "number"){
+//     second = info[i];
+//     } else if (typeof info[i] === "boolean"){
+//     if ( info[i] === true){
+//     third = "Available";
+//     } else{ 
+//     third = "Not Available";
+//     }
+//     }
+//     }
+//     }
+//     showDetails( false, "Ahmed", 19);
+
+
+// function show(...data) {
+//         let name  = 'Unknown', age  = 'Unknown', status = 'Unknown';
+
+//         for(let i = 0; i<data.length; i++)
+//         { 
+//             if(typeof data[i] == "string")
+//             {
+//                 name = data[i];
+//             }
+//             else if(typeof data[i] == "boolean")
+//             {
+//                 if(data[i] == true)
+//                 {
+//                     status = "You are avalible for hire";
+//                 }
+//                 else{
+//                     status = "You are NOT avalible for hire";
+//                 }
+//             }
+//             else if(typeof data[i] == "number" )
+//             {
+//                 age = data[i];
+//             }
+            
+
+//         }
+//         return (`Hello ${name} , Your age is ${age} , ${status} `);
+//     }
+//     console.log(show(false,23,"nazar"));
+//     console.log(show("Fa",23, true));
