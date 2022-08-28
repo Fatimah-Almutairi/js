@@ -111,9 +111,9 @@ console.log(my.splice(zero, ++zero, "rO"));
 // ================================== Functions
 
 function showDetails(username, age, status){
-    info = [username, age, status];
-    for(let i = 0; i < 3; i++){
-    if(typeof info[i] === "string"){ 
+    info = [username, age, status];  //1
+    for(let i = 0; i < 3; i++){    //2 
+    if(typeof info[i] === "string"){    //3
         username = info[i];
     }else if(typeof info[i] === "number"){
         age = info[i];
