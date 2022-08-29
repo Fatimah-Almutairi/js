@@ -26,3 +26,12 @@ function SayHello(username, age = "UnKnown") {
 console.log(SayHello("Fatimah"));
 // ======================================
 
+function calcul(...number) {
+    let result = 0;
+        for (let i = 0; i < number.length; i++) {
+            result += number[i];
+        }
+    return `Final Result Is ${result}`;
+}
+
+console.log(calcul(20, 30, 55, 14));
