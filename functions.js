@@ -35,3 +35,21 @@ function calcul(...number) {
 }
 
 console.log(calcul(20, 30, 55, 14));
+// ======================================
+
+function showInfo (username = "unKnown", age = "unKnown", rate = "unKnown", show = "Yes", ...skills) {
+    document.write(`<div><h2> Welcome ${username}</h2>`);
+    document.write(`<p> Age: ${age} </p> <p> Hour Rate: $${rate}</p>`);
+    if(show === "Yes"){
+        if(skills.length > 0){
+            document.write(`<p>Skills: ${skills.join(" , ")}</p>`);
+        }else{
+            document.write(`<p>Skills: No Skills</p>`);
+        }
+    }else{
+        document.write(`<p> Skills Is Hidden</p>`);
+    }
+    document.write(`</div>`);
+}
+
+showInfo("Fatimah", 26, 20, "Yes", "HTML", "CSS", "JavaScript"); /// هنا مايمدي اخلي العمر فاضي او الاجر لازم ايف سويته بالتحديات 
