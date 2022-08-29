@@ -55,8 +55,6 @@ function showInfo (username = "unKnown", age = "unKnown", rate = "unKnown", show
 showInfo("Fatimah", 26, 20, "Yes", "HTML", "CSS", "JavaScript"); /// هنا مايمدي اخلي العمر فاضي او الاجر لازم ايف سويته بالتحديات 
 // ======================================
 
-
-
 document.getElementById("show").onclick = function () {
     console.log("Show");
 };
@@ -64,10 +62,19 @@ document.getElementById("show").onclick = function () {
 function sayMessage (fname, lname) {
     let message = 'Hello My little boy, ';
     function concatMsg(){
-        message = `${message} ${fname} ${lname}`;
-    }
-    concatMsg();
-    return message;
+        message = `${message} ${fname} ${lname}`; // هنا حدثت على قيمه الرساله 
+        // return `${message} ${fname} ${lname}`;  هنا طريقه ثانيه نفس نتيجه السطر اللي فوقه 
+    } // اذا سويت السطر اللي فوق اسوي ريتيرن للفنكشن الثانيه وامسح سطر ٧١ ريتيرن مسج
+    concatMsg(); // هنا استدعيت الفنكشن الثانيه 
+    return message; // هنا رجعت قيمه الرساله 
 }
-
+// هنا فنكشن داخل فنكشن وممكن عمل فنكشن ثالثه تجمع الاسم وسطها والثانيه تجمع الرسالة مع الاسم والاولى تطبع الرساله 
 console.log(sayMessage("Bassam", "Mohammed"));
+// ======================================
+
+let print = () => {
+    return 10;
+}
+// let print = () => 10;  نفس الفنكشن اللي فوق بس ممكن استخدمه اذا عندي سطر واحد بس داخل الفنكشن
+console.log(print()); 
+// ======================================
