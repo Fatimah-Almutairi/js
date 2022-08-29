@@ -60,3 +60,14 @@ showInfo("Fatimah", 26, 20, "Yes", "HTML", "CSS", "JavaScript"); /// هنا ما
 document.getElementById("show").onclick = function () {
     console.log("Show");
 };
+
+function sayMessage (fname, lname) {
+    let message = 'Hello My little boy, ';
+    function concatMsg(){
+        message = `${message} ${fname} ${lname}`;
+    }
+    concatMsg();
+    return message;
+}
+
+console.log(sayMessage("Bassam", "Mohammed"));
