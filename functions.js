@@ -19,3 +19,8 @@ function generate(start, end){
 generate(10, 20);
 
 // ======================================
+function SayHello(username, age = "UnKnown") {
+    return `Hello ${username}, Your Age Is ${age}`;
+
+}
+console.log(SayHello("Fatimah"))
