@@ -53,3 +53,10 @@ function showInfo (username = "unKnown", age = "unKnown", rate = "unKnown", show
 }
 
 showInfo("Fatimah", 26, 20, "Yes", "HTML", "CSS", "JavaScript"); /// هنا مايمدي اخلي العمر فاضي او الاجر لازم ايف سويته بالتحديات 
+// ======================================
+
+
+
+document.getElementById("show").onclick = function () {
+    console.log("Show");
+};
