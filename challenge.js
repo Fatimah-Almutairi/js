@@ -189,5 +189,7 @@ showDetails("Fatimah", false, 26);
 // ================================
 
 let names = function (...nam) {
-return 
+    return 
 }
+
+console.log()
