@@ -185,3 +185,9 @@ showDetails("Fatimah", false, 26);
 //     }
 //     console.log(show(false,23,"nazar"));
 //     console.log(show("Fa",23, true));
+
+// ================================
+
+let names = function (...nam) {
+return 
+}
