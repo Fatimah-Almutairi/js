@@ -192,4 +192,4 @@ let names = function (...nam) {
     return 
 }
 
-console.log()
+console.log(names("Fatimah", "Bassam", "Youssef"));
