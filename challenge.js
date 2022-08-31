@@ -188,8 +188,7 @@ showDetails("Fatimah", false, 26);
 
 // ================================
 
-let names = function (...nam) {
-    return 
-}
+let names =  (...nam) =>{ return `String [${nam.join(", ")}] => Done!`}
+
 
 console.log(names("Fatimah", "Bassam", "Youssef"));
