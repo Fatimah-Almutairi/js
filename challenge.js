@@ -193,9 +193,3 @@ let names =  (...nam) =>{ return `String [${nam.join("] , [")}] => Done!`}
 
 console.log(names("Fatimah", "Bassam", "Youssef"));
 
-let mynumber = [20, 50, 10, 60];
-let calc = (one, two, ...nums) => {
-
-}
-
-console.log()
