@@ -79,3 +79,12 @@ let print = () => {
 console.log(print()); 
 // ======================================
 
+let newArray = [];
+
+let addSelf = myNums.map(function (element, index, array ){
+    console.log(`Current Element => ${element}`);
+    console.log(`Current Index => ${index}`);
+    console.log(`Array => ${array}`);
+    console.log(`This => ${this}`);
+
+}, 10);
