@@ -118,3 +118,16 @@ let ign = "Fat9im4a2h1"
 
 console.log(ign);
 // ==============================================  73
+// هنا عن الفلتر تشبهه الماب لكن زي اللي يسوي تيست للعناصر اللي صح يطبعه ويجيبه والخطا لا يعني تستخدم للـ اف كونديشن 
+let nam = ["Asma", "Samya", "Amal", "Moued", "Aseel"]
+    .filter((e) => e.startsWith("A") ? true : false);
+console.log(nam);
+
+let num = [11, 2, 46, 13, 75, 40]
+    .filter(function (el) {
+        return el % 2 === 0;
+    });
+console.log(num);
+
+// ==============================================  74
+
