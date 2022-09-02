@@ -79,7 +79,9 @@ let print = () => {
 console.log(print()); 
 // ======================================
 
+let myNums = [1, 2, 3, 4, 5, 6];
 let newArray = [];
+
 
 let addSelf = myNums.map(function (element, index, array ){
     console.log(`Current Element => ${element}`);
