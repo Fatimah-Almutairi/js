@@ -78,7 +78,7 @@ let print = () => {
 // let print = () => 10;  نفس الفنكشن اللي فوق بس ممكن استخدمه اذا عندي سطر واحد بس داخل الفنكشن
 console.log(print()); 
 // ======================================
-
+// اول مثال على الماب ٧١
 let myNums = [1, 2, 3, 4, 5, 6];
 let newArray = [];
 
@@ -88,5 +88,9 @@ let addSelf = myNums.map(function (element, index, array ){
     console.log(`Current Index => ${index}`);
     console.log(`Array => ${array}`);
     console.log(`This => ${this}`);
-
 }, 10);
+// ممكن اختصار هذا بسر مثل كذا
+let adds = myNums.map((e) =>  e + e);
+console.log(adds)
+
+// ==============================================
