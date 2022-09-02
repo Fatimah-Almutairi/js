@@ -94,3 +94,18 @@ let adds = myNums.map((e) =>  e + e);
 console.log(adds)
 
 // ==============================================
+
+let sw = "elZERo"
+    .split("")  // هنا يحوله لمصفوفه لانه نص قبل عشان اقدر اسوي ماب عليهم
+    .map(function (ele) {
+        return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
+    })
+    .join(""); // هنا يرجع العناصر لي نص عشان اجمعهم
+
+    console.log(sw)
+// ==============================================
+let int = [1, -10, -20, 15, 44, -68]
+    .map(function (ele) {
+        return -ele; // يكفي السطر ذا عشان اعكس علامتهم لان نفي النفي اثبات يعني سالب مع سالب موجب وبس
+    });
+    console.log(int);
