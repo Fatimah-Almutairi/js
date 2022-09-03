@@ -133,4 +133,6 @@ console.log(num);
 
 let sentens = "I Love Food Code Too Playing Much"
     .split(" ")
-    .filter
+    .filter(function (ele) {
+        return
+    })
