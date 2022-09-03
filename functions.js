@@ -131,3 +131,6 @@ console.log(num);
 
 // ==============================================  74
 
+let sentens = "I Love Food Code Too Playing Much"
+    .split(" ")
+    .filter
