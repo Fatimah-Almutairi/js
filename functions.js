@@ -136,3 +136,4 @@ let sentens = "I Love Food Code Too Playing Much"
     .filter(function (ele) {
         return ele.length <= 4;
     })
+    .join(" ");
