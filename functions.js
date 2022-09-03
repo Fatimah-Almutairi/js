@@ -137,3 +137,4 @@ let sentens = "I Love Food Code Too Playing Much"
         return ele.length <= 4;
     })
     .join(" ");
+console.log(sentens);
