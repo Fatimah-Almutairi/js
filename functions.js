@@ -134,5 +134,5 @@ console.log(num);
 let sentens = "I Love Food Code Too Playing Much"
     .split(" ")
     .filter(function (ele) {
-        return
+        return ele.length <= 4;
     })
