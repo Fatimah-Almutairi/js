@@ -166,3 +166,14 @@ let n = [10, 20, 15, 30]
     //  جربي مره بالانيشيل فاليو ومره بدون عشان تعرفي الفرق بينهم
 
 console.log(n);
+
+// ==============================================  76
+
+let str = ["Fatimah", "Bassam", "Mohammed", "Ahmed", "Abdullah"]
+    reduce(function (acc, current) {
+        console.log(`Acc => ${acc}`);
+        console.log(`Current Element => ${current}`);
+        console.log();
+        console.log(`###################`);
+       return acc.length > current.length ? acc : current;
+    })
