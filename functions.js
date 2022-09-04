@@ -178,3 +178,11 @@ let str = ["Fatimah", "Bassam", "Mohammed", "Ahmed", "Abdullah"]
        return acc.length > current.length ? acc : current;
     });
     console.log(str);
+
+    let removeChars = ["F", "@", "A","@","T","I","@","@","M","A","H"]
+    .filter(function (ele) {
+        return !ele.startsWith("@");
+    })
+    .reduce(function (acc, current) {
+
+    })
