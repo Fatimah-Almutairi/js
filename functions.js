@@ -170,10 +170,11 @@ console.log(n);
 // ==============================================  76
 
 let str = ["Fatimah", "Bassam", "Mohammed", "Ahmed", "Abdullah"]
-    reduce(function (acc, current) {
+    .reduce(function (acc, current) {
         console.log(`Acc => ${acc}`);
         console.log(`Current Element => ${current}`);
-        console.log();
+        console.log(acc.length > current.length ? acc : current);
         console.log(`###################`);
        return acc.length > current.length ? acc : current;
-    })
+    });
+    console.log(str);
