@@ -178,11 +178,13 @@ let str = ["Fatimah", "Bassam", "Mohammed", "Ahmed", "Abdullah"]
        return acc.length > current.length ? acc : current;
     });
     console.log(str);
-
-    let removeChars = ["F", "@", "A","@","T","I","@","@","M","A","H"]
+//  الفكرة من الكود اللي تحت يسوي نفس الجوين join بس انه بالرديوس ميثود مشيت على العناصر وحده وحده 
+    let removeChars = ["F", "@", "A","@","T","I","@","@","M","A","H","@","<3"]
     .filter(function (ele) {
         return !ele.startsWith("@");
     })
     .reduce(function (acc, current) {
+        return `${acc}${current}`;
+    });
 
-    })
+console.log(removeChars)
