@@ -148,7 +148,7 @@ let mix = "A13BS2Zx" // مثال الفلتر مع الماب مع بعض
         // نفي النفي اثبات تذكري ... بس 
         return !isNaN(parseInt(ele))
     })
-    .map( () => ele * ele)
+    .map( (ele) => ele * ele)
     .join("");
 console.log(mix);
 // ==============================================
