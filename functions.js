@@ -151,4 +151,17 @@ let mix = "A13BS2Zx" // مثال الفلتر مع الماب مع بعض
     .map( (ele) => ele * ele)
     .join("");
 console.log(mix);
-// ==============================================
+// ==============================================  75 Reduce
+
+let n = [10, 20, 15, 30]
+    .reduce(function (acc, current, index, array) {
+        console.log(`Acc => ${acc}`);
+        console.log(`Current Element => ${current}`);
+        console.log(`Current Index Element => ${index}`);
+        console.log(`Array => ${array}`);
+        console.log(acc + current);
+        console.log(`###################`);
+       return acc + current;
+    });
+
+console.log(n);
