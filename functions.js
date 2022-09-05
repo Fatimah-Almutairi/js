@@ -195,6 +195,10 @@ let allLis = document.querySelectorAll("ul li")
     .forEach(function (ele) {
         // console.log(ele.innerHTML) // يرجع الاشياء الموجودة داخل العنصر
         ele.onclick = function () {
+            // Remove active class from all elememnts
+            allLis.forEach( function (e) {
+                e.classList.remove("active");
+            })
             // console.log(this); // فايدته العنصر اللي اضغطه هو اللي يصير عليه كلاس الاكتيف 
             this.classList.add("active");
         };
