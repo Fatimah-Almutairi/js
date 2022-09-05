@@ -190,3 +190,8 @@ let str = ["Fatimah", "Bassam", "Mohammed", "Ahmed", "Abdullah"]
 console.log(removeChars);
 
 // ====================================== 77
+
+let allLis = document.querySelectorAll("ul li")
+    .forEach(function (ele) {
+        console.log(ele.innerHTML) // يرجع الاشياء الموجودة داخل العنصر
+    })
