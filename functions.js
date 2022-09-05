@@ -192,6 +192,7 @@ console.log(removeChars);
 // ====================================== 77
 
 let allLis = document.querySelectorAll("ul li");
+let allDivs = document.querySelectorAll(".content div");
 
 allLis.forEach(function (ele) {
         // console.log(ele.innerHTML) // يرجع الاشياء الموجودة داخل العنصر
@@ -202,5 +203,8 @@ allLis.forEach(function (ele) {
             })
             // console.log(this); // فايدته العنصر اللي اضغطه هو اللي يصير عليه كلاس الاكتيف 
             this.classList.add("active");
+            allDivs.forEach(function (ele) {
+                ele.style.display = 'none';
+            })
         };
     });
