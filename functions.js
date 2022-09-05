@@ -187,4 +187,6 @@ let str = ["Fatimah", "Bassam", "Mohammed", "Ahmed", "Abdullah"]
         return `${acc}${current}`;
     });
 
-console.log(removeChars)
+console.log(removeChars);
+
+// ====================================== 77
