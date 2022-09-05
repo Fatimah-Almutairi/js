@@ -193,5 +193,8 @@ console.log(removeChars);
 
 let allLis = document.querySelectorAll("ul li")
     .forEach(function (ele) {
-        console.log(ele.innerHTML) // يرجع الاشياء الموجودة داخل العنصر
+        // console.log(ele.innerHTML) // يرجع الاشياء الموجودة داخل العنصر
+        ele.onclick = function () {
+            
+        }
     })
