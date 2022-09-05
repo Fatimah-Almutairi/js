@@ -196,6 +196,6 @@ let allLis = document.querySelectorAll("ul li")
         // console.log(ele.innerHTML) // يرجع الاشياء الموجودة داخل العنصر
         ele.onclick = function () {
             // console.log(this); // فايدته العنصر اللي اضغطه هو اللي يصير عليه كلاس الاكتيف 
-            this.classList.add("active")
+            this.classList.add("active");
         };
     });
