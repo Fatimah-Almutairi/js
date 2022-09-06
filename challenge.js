@@ -197,6 +197,12 @@ console.log(names("Fatimah", "Bassam", "Youssef"));
 
 let myString = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,2,0,z";
 
-let solution = '';
+let solution = myString
+  .split("")
+  .map((ele) => isNaN(parseInt(ele)) ? ele : ""
+  )
+  .filter(function (ele) {
+    return ele
+  })
 
 console.log(solution);
