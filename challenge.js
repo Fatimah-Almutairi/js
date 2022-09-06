@@ -212,6 +212,6 @@ let solution = myString
     }else{
       return `${acc}${current}`;
     }
-  })
+  });
 
 console.log(solution);
