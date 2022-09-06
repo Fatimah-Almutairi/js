@@ -199,8 +199,9 @@ let myString = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,2,0,z";
 
 let solution = myString
   .split("")
-  .map((ele) => isNaN(parseInt(ele)) ? ele : ""
-  )
+  .map(function (ele) {
+    return ele.replace("_", " ");
+  })
   .filter(function (ele) {
     return ele
   })
