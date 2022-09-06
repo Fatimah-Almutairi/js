@@ -196,6 +196,7 @@ console.log(names("Fatimah", "Bassam", "Youssef"));
 // ================================ 78
 
 let myString = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,2,0,z";
+let zletter = myString[myString.length - true];
 
 let solution = myString
   .split("")
