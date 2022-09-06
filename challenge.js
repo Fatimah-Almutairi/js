@@ -198,20 +198,30 @@ console.log(names("Fatimah", "Bassam", "Youssef"));
 let myString = "1,2,3,EE,l,z,e,r,o,_,w,e,b,_,s,c,h,o,o,l,2,0,z";
 let zletter = myString[myString.length - true];
 
+// let solution = myString
+//   .split("")
+//   .map(function (ele) {
+//     return ele.replace("_", " ");
+//   })
+//   .filter(function (ele) {
+//     return ele !== "," && isNaN(parseInt(ele)) && ele !== zletter;
+//   })
+//   .reduce(function (acc, current) {
+//     if(acc == current){
+//       return `${acc}`;
+//     }else{
+//       return `${acc}${current}`;
+//     }
+//   });
+
+// console.log(solution);
+
+// =========================== Arrow function
+
 let solution = myString
   .split("")
-  .map(function (ele) {
-    return ele.replace("_", " ");
-  })
-  .filter(function (ele) {
-    return ele !== "," && isNaN(parseInt(ele)) && ele !== zletter;
-  })
-  .reduce(function (acc, current) {
-    if(acc == current){
-      return `${acc}`;
-    }else{
-      return `${acc}${current}`;
-    }
-  });
+  .map( (e) => e.replace("_", " "))
+  .filter( (e) => e !== "," && isNaN(parseInt(e)) && e !== zletter)
+  .reduce( (acc,next) => (acc == next ? `${acc}` : `${acc}${next}`));
 
-console.log(solution);
+  console.log(solution)
