@@ -203,7 +203,7 @@ let solution = myString
     return ele.replace("_", " ");
   })
   .filter(function (ele) {
-    return ele
+    return ele !== "," && isNaN(parseInt(ele)) && ele !== zletter;
   })
 
 console.log(solution);
