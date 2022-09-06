@@ -206,5 +206,12 @@ let solution = myString
   .filter(function (ele) {
     return ele !== "," && isNaN(parseInt(ele)) && ele !== zletter;
   })
+  .reduce(function (acc, current) {
+    if(acc == current){
+      return `${acc}`;
+    }else{
+      return `${acc}${current}`;
+    }
+  })
 
 console.log(solution);
