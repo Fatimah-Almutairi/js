@@ -15,4 +15,6 @@ user.sayHello = function () {
 console.log(user);
 console.log(user.age);
 console.log(user.country);
-console.log(user.sayHello() );
+console.log(user.sayHello());
+
+
