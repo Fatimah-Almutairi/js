@@ -1,0 +1,1 @@
+let myElements = document.querySelector(".js");
