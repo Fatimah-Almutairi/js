@@ -10,13 +10,13 @@ console.log(myElements.textContent);
 
 console.log(document.getElementsByTagName("p")[0].attributes); // يجيب كل الاتريبيوت اللي موجوده في التاق
 
-let myp = document.getElementsByTagName("p")[0];
-if(myp.hasAttribute("data-src")) {
+let myp = document.getElementsByTagName("p")[0]; // هنا ربطت الحفظ في متغير عندي هنا 
+if(myp.hasAttribute("data-src")) { // قلت له اذا لقيت الاتريبيوت هذا سواا
     if(myp.getAttribute("data-src") === "") {
-        myp.removeAttribute("data-src");
+        myp.removeAttribute("data-src"); // اذا لقاه تروو فاضي القيمه احذفه 
     } else{
-        myp.setAttribute("data-src", "New Value in data-src");
+        myp.setAttribute("data-src", "New Value in data-src");  // اذا لقيت فيه قيمه بدلها بالقيمه الجديده 
     }
 }else {
-    console.log(`Not Found`);
+    console.log(`Not Found`);  // اذا مالقيته حط نوت فاوند انه مالقيته
 }
