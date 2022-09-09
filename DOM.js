@@ -20,3 +20,13 @@ if(myp.hasAttribute("data-src")) { // قلت له اذا لقيت الاتريب
 }else {
     console.log(`Not Found`);  // اذا مالقيته حط نوت فاوند انه مالقيته
 }
+
+
+if(myp.hasAttribute()) {
+    console.log(`Has Attribute`);  // اقوله اذا لقيت الاتريبيوت في العنصر هذا اطبع كذا 
+}
+if (document.getElementsByTagName("div")[0].hasAttributes()) {
+    console.log(`Has Attribute`);  // اقوله اذا لقيت الاتريبيوت في العنصر هذا اطبع كذا 
+}else{
+    console.log(`Div has not attribute`);
+}
