@@ -22,9 +22,10 @@ if(myp.hasAttribute("data-src")) { // قلت له اذا لقيت الاتريب
 }
 
 
-if(myp.hasAttribute()) {
-    console.log(`Has Attribute`);  // اقوله اذا لقيت الاتريبيوت في العنصر هذا اطبع كذا 
+if(myp.hasAttributes()) {
+    console.log(`p Has Attribute`);  // اقوله اذا لقيت الاتريبيوت في العنصر هذا اطبع كذا 
 }
+
 if (document.getElementsByTagName("div")[0].hasAttributes()) {
     console.log(`Has Attribute`);  // اقوله اذا لقيت الاتريبيوت في العنصر هذا اطبع كذا 
 }else{
