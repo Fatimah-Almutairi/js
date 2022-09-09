@@ -8,4 +8,4 @@ console.log(myElements.textContent);
 
 // =========================================== 87
 
-
+console.log(document.getElementsByTagName["p"][0].attributes);
