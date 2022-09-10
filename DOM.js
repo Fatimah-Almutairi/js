@@ -6,7 +6,7 @@ console.log(myElements.innerHTML);
 // فايدته يكتب انه نص يتجاهل التاق ولا يكتبه يعامله على انه نص بس txtcontent
 console.log(myElements.textContent);
 
-// =========================================== 87
+// =========================================== 88
 
 console.log(document.getElementsByTagName("p")[0].attributes); // يجيب كل الاتريبيوت اللي موجوده في التاق
 
@@ -31,3 +31,11 @@ if (document.getElementsByTagName("div")[0].hasAttributes()) {
 }else{
     console.log(`Div has not attribute`);
 }
+
+// ======================================= 89
+
+let myElement = document.createElement("div");
+let myAtt = document.createAttribute("data-custom");
+let myText = document.createTextNode("Product One");
+let myComment = document.createComment("This is Div");
+
