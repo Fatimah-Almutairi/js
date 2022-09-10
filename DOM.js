@@ -51,3 +51,9 @@ myElement.appendChild(myComment);
 
 // Append element to body
 document.body.appendChild(myElement);
+
+// ===================================== 90
+
+let myDiv = document.createElement("div");
+let myH = document.createElement("h2");
+let myP = document.createElement("p");
