@@ -33,9 +33,21 @@ if (document.getElementsByTagName("div")[0].hasAttributes()) {
 }
 
 // ======================================= 89
+  // كل اللي انشئه هنا يصير علىصفحة الاتش تي ام ال
+let myElement = document.createElement("div");  // هنا انشأت عنصر ديف في الصفحه
+let myAtt = document.createAttribute("data-custom"); // هنا انشأت اتريبيوت وحطيتها بمتغير لكن للحين الاتريبيوت فاضي 
+let myText = document.createTextNode("Product One"); // هنا انشأت نص وحطيته بمتغير 
+let myComment = document.createComment("This is Div"); // انشأت كومنت تعليق وحطيته بمتغير
 
-let myElement = document.createElement("div");
-let myAtt = document.createAttribute("data-custom");
-let myText = document.createTextNode("Product One");
-let myComment = document.createComment("This is Div");
+myElement.className = "product"; // حطيت كلاس داخل المتغير 
+myElement.setAttributeNode(myAtt);  // هنا ربطت الاتريبيوت داخل العنصر بس بدون قيمه 
+myElement.setAttribute("data-test", "Testing");  // هنا انشأت اتريبيوت وحطيت قيمه  له
 
+// Append text to element
+myElement.appendChild(myText);
+
+// Append comment to element
+myElement.appendChild(myComment);
+
+// Append element to body
+document.body.appendChild(myElement);
