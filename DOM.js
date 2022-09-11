@@ -81,3 +81,15 @@ console.log(myEl.lastChild);
 console.log(myEl.firstElementChild); // يجيب اول عنصر في السطر ٧٦
 console.log(myEl.lastElementChild);
 
+
+// ===================================== 92  Events
+
+let myBtn = document.getElementById("btn");
+
+myBtn.onclick = () => {
+    console.log("Clicked");
+}
+
+window.onscroll = () => {  // وعشان اشغله لازم اروح للستايل واعدل ارتفاع الصفحه
+    console.log("scroll");
+}
