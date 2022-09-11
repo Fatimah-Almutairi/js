@@ -76,3 +76,8 @@ console.log(myEl.children);
 console.log(myEl.children[0]);
 console.log(myEl.childNodes);
 console.log(myEl.childNodes[0]);
+console.log(myEl.firstChild);
+console.log(myEl.lastChild);
+console.log(myEl.firstElementChild);
+console.log(myEl.lastElementChild);
+
