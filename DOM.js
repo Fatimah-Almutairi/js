@@ -83,6 +83,16 @@ console.log(myEl.lastElementChild);
 
 
 // ===================================== 92  Events
+// onclick
+// oncontextmenu
+// onmouseenter
+// onmouseleave
+// onscroll
+// onresize
+// onfocus
+// onblur
+// onsubmit
+// onload
 
 let myBtn = document.getElementById("btn");
 
@@ -92,4 +102,8 @@ myBtn.onclick = () => {
 
 window.onscroll = () => {  // وعشان اشغله لازم اروح للستايل واعدل ارتفاع الصفحه
     console.log("scroll");
+}
+
+window.onresize = () => {
+    console.log("Resized");
 }
