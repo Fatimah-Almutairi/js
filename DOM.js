@@ -72,12 +72,12 @@ myDiv.appendChild(myP);
 
 let myEl = document.querySelector("div")
 console.log(myEl);
-console.log(myEl.children);
+console.log(myEl.children); // يرجع بس العناصر اللي داخل 
 console.log(myEl.children[0]);
-console.log(myEl.childNodes);
-console.log(myEl.childNodes[0]);
-console.log(myEl.firstChild);
+console.log(myEl.childNodes); // يعطي العناصر مع المسافه والتعليق وكل شيء
+console.log(myEl.childNodes[0]); 
+console.log(myEl.firstChild); // يجيب نفس النتيجة سطر ٧٨
 console.log(myEl.lastChild);
-console.log(myEl.firstElementChild);
+console.log(myEl.firstElementChild); // يجيب اول عنصر في السطر ٧٦
 console.log(myEl.lastElementChild);
 
