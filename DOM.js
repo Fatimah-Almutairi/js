@@ -84,7 +84,7 @@ console.log(myEl.lastElementChild);
 
 // ===================================== 92  Events
 // onclick
-// oncontextmenu
+// oncontextmenu  == right click  === نفسها الكليك يمين 
 // onmouseenter
 // onmouseleave
 // onscroll
