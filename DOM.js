@@ -70,8 +70,9 @@ myDiv.appendChild(myP);
 
 // ===================================== 91
 
-let myEl = document.querySelector()
-console.log(myElements);
-console.log(myElements.children);
-console.log(myElements.childNodes)
-console.log(myElements.children)
+let myEl = document.querySelector("div")
+console.log(myEl);
+console.log(myEl.children);
+console.log(myEl.children[0]);
+console.log(myEl.childNodes);
+console.log(myEl.childNodes[0]);
