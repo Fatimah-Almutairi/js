@@ -55,6 +55,23 @@ document.body.appendChild(myElement);
 // ===================================== 90
 
 let myDiv = document.createElement("div");
-let myH = document.createElement("h2");
+let myH = document.createElement("h3");
 let myP = document.createElement("p"); 
+let myTe = document.createTextNode("Text inside h3");
+let myTex = document.createTextNode("This is Text inside paraghraph");
 
+myDiv.className = "Pro";
+myH.appendChild(myTe);
+myP.appendChild(myTex);
+
+document.body.appendChild(myDiv);
+myDiv.appendChild(myH);
+myDiv.appendChild(myP);
+
+// ===================================== 91
+
+let myEl = document.querySelector()
+console.log(myElements);
+console.log(myElements.children);
+console.log(myElements.childNodes)
+console.log(myElements.children)
