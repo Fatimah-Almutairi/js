@@ -163,3 +163,13 @@ element.onclick = () => { // method of add is start change and added the class w
     this.classList.add("add-one", "add-two");  // ياخذ مجموعه توكن tokens اللي هو مجموعه الكلاسات داخله 
 };
 
+element.onclick = function () {
+    // هنا يحذف لما اضغط على العنصر الكلاس هذا
+    element.classList.remove("two");
+}
+
+element.onclick = () => {
+    // هنا على حسب اذا موجود الكلاس هذا احذفه واذا مو موجود اضيفه طبعاً بعد الكليك
+    element.classList.toggle("Fatimah");
+}
+
