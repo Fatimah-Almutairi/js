@@ -173,3 +173,15 @@ element.onclick = () => {
     element.classList.toggle("Fatimah");
 }
 
+// ===================================== 96 style in DOM
+
+element.style.color = "red";
+element.style.fontWeight = "boold";
+
+element.style.cssText = "font-weight: bold; color: yellow; opacity: 0.9;";
+
+element.style.removeProperty("color");
+element.style.setProperty("font-size", "40px", "important");
+
+console.log(document.styleSheets[0].rules[0].style.removeProperty("line-height"));
+console.log(document.styleSheets[0].rules[0].style.setProperty("color", "green"));
