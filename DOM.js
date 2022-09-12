@@ -150,3 +150,16 @@ one.onblur = function () {
 // ===================================== 95
 
 let element = document.getElementById("my-div");
+
+console.log(typeof element.classList); //نوع الكلاس
+console.log(element.classList.length); // عدد العناصر داخله
+console.log(element.classList.contains("one")); //زي اللي يسوي تشييك على الكلاس اذا موجود هذا العنصر اول لا ويرجع  صح وخطا
+console.log(element.classList.contains("Fatimah"));
+console.log(element.classList.item("2")); // اعطيه رقم الانديكس ويرجع العنصر داخل الكلاس ايش هو 
+
+
+element.onclick = () => { // method of add is start change and added the class when I click in elements 
+    // طبعاً ماراح يضيف الا اذا سويت كليك ع العنصر يبدا يضيف
+    this.classList.add("add-one", "add-two");  // ياخذ مجموعه توكن tokens اللي هو مجموعه الكلاسات داخله 
+};
+
