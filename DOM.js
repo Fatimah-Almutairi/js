@@ -123,6 +123,9 @@ document.forms[0].onsubmit = (e) => {
     if (ageInput.value !== ""){
         ageValid = true;
     }
+    if (userValid === false || ageValid === false){
+        e.preventDefault();
+    }
 }
 
 
