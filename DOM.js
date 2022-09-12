@@ -133,3 +133,20 @@ document.links[0].onmouseenter = (event) => {
     console.log(event);  // ممكن اطلع منه نوع الايفينت اللي هو ماوس انتر
 
 }
+
+// ===================================== 94
+
+let one = document.querySelector(".one");  // انبوت عاديات بالصفحه
+let two = document.querySelector(".two");
+
+window.onload = function () { // فكرته انه اول مايحمل الصفحه يسوي فوكس على الانبوت هذا 
+    two.focus();
+}
+
+one.onblur = function () {
+    document.links[0].click();  // فايدته اول مااطلع من الانبوت هذا يفتح اللينك اللي حددته
+};
+
+// ===================================== 95
+
+let element = document.getElementById("my-div");
