@@ -110,7 +110,23 @@ window.onresize = () => {
 
 // ===================================== 93
 
+let userInput = document.querySelector("[name = 'username']");
+let ageInput = document.querySelector("[name = 'age']");
+
+document.forms[0].onsubmit = (e) => {
+    let userValid = false;
+    let ageValid = false;
+
+    if (userInput.value !== "" && userInput.value.length >= 6){
+        userValid = true;
+    }
+    if (ageInput.value !== ""){
+        ageValid = true;
+    }
+}
+
+
 document.links[0].onmouseenter = (event) => {
     console.log(event);  // ممكن اطلع منه نوع الايفينت اللي هو ماوس انتر
-    
+
 }
