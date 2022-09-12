@@ -185,3 +185,46 @@ element.style.setProperty("font-size", "40px", "important");
 
 console.log(document.styleSheets[0].rules[0].style.removeProperty("line-height"));
 console.log(document.styleSheets[0].rules[0].style.setProperty("color", "green"));
+
+// ===================================== 97
+
+let createP = document.createElement("p");
+createP = " from element in js ";
+element.append(createP);
+
+element.before("Hello from JS");
+element.after("Hello from JS after div");
+element.append("Hello from JS");
+element.prepend("Hello from JS");
+
+// هنا حذف العنصر بشكل كامل مو يخفي لا يمسح بشكل نهائي 
+// element.remove();
+
+// ===================================== 98
+
+let span = document.querySelector(".twoo");
+
+console.log(span.nextSibling); // يرجع اللي بعده مو شرط عنصر 
+console.log(span.nextElementSibling);  // يرجع العنصر اللي بعده يتجاهل النص او التعليق
+console.log(span.previousSibling);
+console.log(span.previousElementSibling);
+
+console.log(span.parentElement);  // استفيد منه يرجع الاب للعنصر واتعامل معه بالشكل اللي ابيه 
+
+span.onclick = () => {
+    span.parentElement.remove();
+    span.parentElement.style.opacity = '0';
+}
+
+
+// ===================================== 99
+
+let mypp = document.querySelector(".my-p").cloneNode(true);   //  لكن بالطريقه هذي بيصير ياخذ نسخه منه بس بدون يحرك النسخه الاصليه 
+// اذا خليت الاقواس فاضيه ياخذ نسخه منه بدون العناصر اللي داخله واذا حطيت تروو داخل الاقواس ياخذ  نسخه منه مع عناصره الداخليه 
+let mydiv = document.querySelector(".div-two");
+// mypp طبعاً هنا المتغير صار قيمته النسخه الجديدة مو الاصلي اللي بالصفحة لان اخذته كنسخه كلون 
+mypp.id = `${mypp.id}-clone`;  //  هنا غيرت الاي دي حق المتغير لاي دي جديد وهو النسخة من الاصلي مو الاصلي نفسه
+
+mydiv.appendChild(mypp);  // بالطريقه هذي ياخذ العنصر من مكانه ويحطه بالمكان الجديد
+
+
