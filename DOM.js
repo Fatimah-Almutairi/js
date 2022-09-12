@@ -107,3 +107,10 @@ window.onscroll = () => {  // وعشان اشغله لازم اروح للستا
 window.onresize = () => {
     console.log("Resized");
 }
+
+// ===================================== 93
+
+document.links[0].onmouseenter = (event) => {
+    console.log(event);  // ممكن اطلع منه نوع الايفينت اللي هو ماوس انتر
+    
+}
