@@ -32,10 +32,12 @@ ul.appendChild(li4);
 myheader.appendChild(ul);
 
 document.body.appendChild(myheader);
-// document.body.appendChild(ul)
 
+mytitle.style.cssText = "color: blue; margin-left:0px;";
 
-mytitle.style.cssText = "color: blue; margin-left:0px; font-size:20px";
-
-ul.style.cssText = "display: flex; color: gray; margin: 10px";
-myheader.style.cssText = "display: flex; justify-content: space-between;";
+ul.style.cssText = "display: flex; color: gray; list-style-type: none;";
+myheader.style.cssText = "display: flex; justify-content: space-between; margin: 20px;";
+li1.style.cssText = "padding-right: 10px; font-size: 20px";
+li2.style.cssText = "padding-right: 10px; font-size: 20px";
+li3.style.cssText = "padding-right: 10px; font-size: 20px";
+li4.style.cssText = "padding-right: 10px; font-size: 20px";
