@@ -231,10 +231,10 @@ mydiv.appendChild(mypp);  // بالطريقه هذي ياخذ العنصر من 
 
 let p2 = document.querySelector(".p");
 
-p2.onclick = one;
+p2.onclick = onee;
 p2.onclick = twoo;
 
-function one () {
+function onee () {
     console.log("Message from onClick 1");
 }
 // راح يصير اوفر رايد على الاول بيقمه الثاني يعني يكتب عليه 
@@ -246,5 +246,18 @@ p2.addEventListener("click", function () {
     console.log("Message from onClick Event");
 });
 
-p2.addEventListener("click", one); // الفانكشين اللي فوق يطبعها 
+p2.addEventListener("click", onee); // الفانكشين اللي فوق يطبعها 
 p2.addEventListener("click", twoo);
+
+p2.onclick = () => {
+    let newP = p2.cloneNode(true);
+    newP.className = "clone";
+    document.body.appendChild(newP);
+};
+
+document.addEventListener("click", function(e) {
+    if(e.target.className === "clone") {
+        // console.log(e.target);
+        console.log("I am cloned");
+    }
+})
