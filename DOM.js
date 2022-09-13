@@ -227,4 +227,24 @@ mypp.id = `${mypp.id}-clone`;  //  هنا غيرت الاي دي حق المتغ
 
 mydiv.appendChild(mypp);  // بالطريقه هذي ياخذ العنصر من مكانه ويحطه بالمكان الجديد
 
+// ======================================  100
 
+let p2 = document.querySelector(".p");
+
+p2.onclick = one;
+p2.onclick = twoo;
+
+function one () {
+    console.log("Message from onClick 1");
+}
+// راح يصير اوفر رايد على الاول بيقمه الثاني يعني يكتب عليه 
+function twoo () {
+    console.log("Message from onClick 2");
+}
+
+p2.addEventListener("click", function () {
+    console.log("Message from onClick Event");
+});
+
+p2.addEventListener("click", one); // الفانكشين اللي فوق يطبعها 
+p2.addEventListener("click", twoo);
