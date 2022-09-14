@@ -44,3 +44,5 @@ li4.style.cssText = "padding-right: 10px; font-size: 20px";
 
 // Add Div Content And Products
 
+let content = document.createElement("div");
+let product = document.createElement("div");
