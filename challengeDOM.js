@@ -41,3 +41,6 @@ li1.style.cssText = "padding-right: 10px; font-size: 20px";
 li2.style.cssText = "padding-right: 10px; font-size: 20px";
 li3.style.cssText = "padding-right: 10px; font-size: 20px";
 li4.style.cssText = "padding-right: 10px; font-size: 20px";
+
+// Add Div Content And Products
+
