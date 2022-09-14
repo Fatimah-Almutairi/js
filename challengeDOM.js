@@ -48,14 +48,8 @@ let content = document.createElement("div");
 let product = document.createElement("div");
 let span = document.createElement("span");
 let myText = document.createTextNode("Product");
-let nu = ""; 
-for(let i = 1; i <= 15; i++){
-    nu += i ;
-//    if(i.textContent === ){
 
-//    }
-}
-// product.appendChild(nu)
+
 span.appendChild(myText);
 product.appendChild(span);
 content.appendChild(product);
