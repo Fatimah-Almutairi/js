@@ -45,13 +45,30 @@ li4.style.cssText = "padding-right: 10px; font-size: 20px";
 // Add Div Content And Products
 
 let content = document.createElement("div");
-let product = document.createElement("div");
-let span = document.createElement("span");
-let myText = document.createTextNode("Product");
+// let product = document.createElement("div");
+// let span = document.createElement("span");
+// let myText = document.createTextNode("Product");
+// let No = document.createTextNode("1");
+
+// No.forEach((elememnt) => {
+//     elememnt.
+// });
+
+for(let i = 0; i<15; i++){
+    let product = document.createElement("div");
+    product.classList.add("product");
+    product.style.cssText = "";
+    let span = document.createElement("span");
+    span.style.cssText = "" ;
+    span.textContent = i + 1;
+    product.appendChild(span);
+    product.append("Product");
+    content.appendChild(product)
+}
 
 
-span.appendChild(myText);
-product.appendChild(span);
-content.appendChild(product);
+// span.appendChild(myText);
+// product.appendChild(span);
+// content.appendChild(product);
 
 document.body.appendChild(content);
