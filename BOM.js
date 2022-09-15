@@ -11,3 +11,7 @@ if( confirmMS === true){
 }else{
     console.log("Item Not Deleted");
 }
+
+let promptMs = prompt("Write Your Age?", "25");
+
+console.log(promptMs)
