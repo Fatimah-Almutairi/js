@@ -47,6 +47,18 @@ let div = document.querySelector("div");
 
 function countdown() {
     div.innerHTML -= 1;
+    if (div.innerHTML === "0"){
+        clearInterval(coun);
+    }
 }
 
 let coun = setInterval(countdown, 1000);
+// ====================================== 106
+
+console.log(location.href);
+console.log(location.host);
+console.log(location.hostname);
+console.log(location.protocol);
+console.log(location.hash);
+// location.href = "/sec02"; يغير الرابط للموقع ويحدد ع طول السيشن تو اللي هو ديف داخل الصفحه
+
