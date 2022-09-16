@@ -42,3 +42,11 @@ btn1.onclick = () => {
 // setInterval( () => {
 //     console.log("Hello");
 // }, 1000);
+
+let div = document.querySelector("div");
+
+function countdown() {
+    div.innerHTML -= 1;
+}
+
+let coun = setInterval(countdown, 1000);
