@@ -72,8 +72,33 @@ console.log(location.hash);
 
 // close ماتقفل الا الحاجه اللي انفتحت عن طريق الاوبن فقط يعني اللي انفتح عن طريق الجافا سكريبت 
 
-setTimeout(function () {
-    // window.open( url, name or is _blank or _self, features, history = replace)
-    window.open("https://google.com", "_blank", "width=600,height=600,left=350,top=250");
-},3000)
+// setTimeout(function () {
+//     // window.open( url, name or is _blank or _self, features, history = replace)
+//     window.open("https://google.com", "_blank", "width=600,height=600,left=350,top=250");
+// },3000);
 // window.close();
+
+// ====================================== 108
+// السجل وغالباً يستخدم داخل الانسبكت في قوقل مو هنا 
+history.length; // يرجع عدد الصفحات اللي بالسجل مع الصفحه الحالية
+history.back (); // يرجعني للصفحه السابقه
+history.forward(); // يوديني للصفحه التالية
+history.go(2); // لازم رقم داخل الاقواس الموجب يعني صفحه كم قدام صفر زي التحديث للصفحه الحاليه السالب الصفحات السابقة
+
+// ====================================== 109
+
+// window.stop()  يوقف تحميل او يوقف اي شيء 
+// window.print()
+let newWindow = window.open("https://google.com", "", "width=400,height=400");
+newWindow.focus(); //  يركز عليها يخليها قدام
+newWindow.close(); // قفلتها عشان ماتزعجني 
+// window.scrollTo(x,y)  مدعوم من كل المتصفحات فايدته يوديني للمكان هذا من قيمه الاكس افقي والواي عمودي
+// window.scrollBy(200,300);  فايدته يودي لين هنا واذا تكرر يصير يزود ع المكان قيمه الاكس والواي يعني يدبل كل مره
+// scroll() غير  مدعوم من سفاري 
+window.scrollTo({
+    left: 500,
+    top: 300,
+    behavior: "smooth" // طريقته يكون ناعم المؤشر
+})
+// كله يكتب في الانسبكت مو هنا السكرووول
+// ====================================== 110
