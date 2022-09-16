@@ -62,3 +62,18 @@ console.log(location.protocol);
 console.log(location.hash);
 // location.href = "/sec02"; يغير الرابط للموقع ويحدد ع طول السيشن تو اللي هو ديف داخل الصفحه
 
+// location.reload(); // فايدته يسوي ريفريش للصفحه ممكن احطه داخل زرار او بعد كليك الحفظ او ممكن بعد وقت معين من الفنكشن
+
+// location.replace()   فايدته يحذف الصفحه هذي الحاليه من تاريخ التصفح داخل الاقواس احط الرابط 
+// location.assign()  Navigates to the given URL داخل الاقواس احط رابط الموقع مافهمته زين 
+// كانه معناها انه تعطي رابط جديد للموقع مع محافظتها ع تاريخ التصفح 
+
+// ====================================== 107 open and close window
+
+// close ماتقفل الا الحاجه اللي انفتحت عن طريق الاوبن فقط يعني اللي انفتح عن طريق الجافا سكريبت 
+
+setTimeout(function () {
+    // window.open( url, name or is _blank or _self, features, history = replace)
+    window.open("https://google.com", "_blank", "width=600,height=600,left=350,top=250");
+},3000)
+// window.close();
