@@ -102,3 +102,10 @@ window.scrollTo({
 })
 // كله يكتب في الانسبكت مو هنا السكرووول
 // ====================================== 110
+
+let up = document.querySelector(".up");
+window.onscroll = () => {
+    if (window.scrollY >= 500) {
+        // console.log(`Scrolling Y value is ${window.scrollY}`)
+    }
+}
