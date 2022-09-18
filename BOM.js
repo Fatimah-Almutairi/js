@@ -134,9 +134,13 @@ console.log(window.localStorage.color);
 console.log(window.localStorage["color"]);
 
 // Remove
-window.localStorage.removeItem("color");
+// window.localStorage.removeItem("color");
 
 // Clear
+// window.localStorage.clear();
+
+// Key
+console.log(window.localStorage.key(0));
 // Set Color In Page
 document.body.style.backgroundColor = window.localStorage.getItem("color");
 
