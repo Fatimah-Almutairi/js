@@ -123,13 +123,23 @@ btn.onclick = () => {
 
 // ====================================== 111
 
-window.localStorage.setItem("color", "blue");
+// Set
+window.localStorage.setItem("color", "#cdcdcd");
 window.localStorage.fontWeight = "bold";
 window.localStorage["fontSize"] = "24px";
 
+// Get
 console.log(window.localStorage.getItem("color"));
 console.log(window.localStorage.color);
 console.log(window.localStorage["color"]);
+
+// Remove
+window.localStorage.removeItem("color");
+
+// Clear
+// Set Color In Page
+document.body.style.backgroundColor = window.localStorage.getItem("color");
+
 
 
 console.log(window.localStorage);
