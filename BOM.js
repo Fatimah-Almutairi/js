@@ -128,3 +128,9 @@ window.localStorage.fontWeight = "bold";
 window.localStorage["fontSize"] = "24px";
 
 console.log(window.localStorage.getItem("color"));
+console.log(window.localStorage.color);
+console.log(window.localStorage["color"]);
+
+
+console.log(window.localStorage);
+console.log(typeof window.localStorage);
