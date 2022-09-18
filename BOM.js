@@ -119,4 +119,12 @@ btn.onclick = () => {
         top: 0,
         behavior: "smooth"
     });
-}
+};
+
+// ====================================== 111
+
+window.localStorage.setItem("color", "blue");
+window.localStorage.fontWeight = "bold";
+window.localStorage["fontSize"] = "24px";
+
+console.log(window.localStorage.getItem("color"));
