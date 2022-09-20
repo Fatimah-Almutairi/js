@@ -152,8 +152,17 @@ console.log(typeof window.localStorage);
 // ====================================== 112
 
 let lis = document.querySelectorAll("ul li");
+let exp = document.querySelector(".experiment")
 lis.forEach((li) => {
     li.addEventListener("click", (e) => {
-        console.log(e.currentTarget.dataset.color);
+        // console.log(e.currentTarget.dataset.color);
+        // Remove Active Class From all lis
+        lis.forEach( (li) => {
+            li.classList.remove("active");
+        });
+        // Add Active Class To Current Element
+        e.currentTarget.classList.add("active");
+        // Add Current Color To Local Storage
+        window.localStorage.setItem("color" , e.currentTarget.dataset.color);
     });
 });
