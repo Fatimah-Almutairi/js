@@ -170,9 +170,9 @@ lis.forEach((li) => {
     li.addEventListener("click", (e) => {
         // console.log(e.currentTarget.dataset.color);
         // // Remove Active Class From all lis
-        // lis.forEach( (li) => {
-        //     li.classList.remove("active");
-        // });
+        lis.forEach( (li) => {
+            li.classList.remove("active");
+        });
         // Add Active Class To Current Element
         e.currentTarget.classList.add("active");
         // Add Current Color To Local Storage
