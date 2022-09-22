@@ -72,9 +72,6 @@ for(let i = 0; i<15; i++){
     content.appendChild(product)
 }
 
-
-// span.appendChild(myText);
-// product.appendChild(span);
-// content.appendChild(product);
+// product.style.cssText = ""
 
 document.body.appendChild(content);
