@@ -65,3 +65,7 @@
 // }
 
 // document.body.appendChild(content);
+
+// ========================================== 114
+ 
+let text = document.querySelector(".input");
