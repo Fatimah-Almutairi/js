@@ -51,3 +51,34 @@ console.log(theCountry);
 // 
 
 // ============================================ 119
+
+let user1 = {
+    theName: "Fatimah",
+    theAge: 26,
+    theTitle: "Developer",
+    theCountry: "KSA",
+    theColor: "Black",
+    skills: {
+        html: 70,
+        css: 50,
+    },
+};
+
+const {
+    theName: n, // زيي اللي غيرت اسم المتغير بعد النسخ 
+    theAge: A, 
+    theColor: co = "Red", // قيمه افتراضيه احمر اذا كان فاضي من فوق 
+    skills: {
+        html: h,css
+    },
+} = user1;
+console.log(n);
+console.log(A);
+console.log(theCountry);
+console.log(co);
+console.log(`My HTML Skill Progress Is ${h}`);
+console.log(`My CSS Skill Progress Is ${css}`);
+
+const {html: skillOne, css: skillTwo} = user1.skills;
+console.log(`My HTML Skill Progress Is ${skillOne}`);
+console.log(`My CSS Skill Progress Is ${skillTwo}`);
