@@ -20,3 +20,10 @@ console.log(Book);
 console.log(Video);
 
 // ============================================ 118
+// Destructuring Objact
+const user = {
+    theName: "Fatimah",
+    theAge: 26,
+    theTitle: "Developer",
+    theCountry: "KSA",
+};
