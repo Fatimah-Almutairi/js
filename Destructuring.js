@@ -27,3 +27,27 @@ const user = {
     theTitle: "Developer",
     theCountry: "KSA",
 };
+console.log(user.theName);
+console.log(user.theAge);
+console.log(user.theTitle);
+console.log(user.theCountry);
+// 
+
+let theName = user.theName;
+let theAge = user.theAge;
+let theTitle = user.theTitle;
+let theCountry = user.theCountry;
+console.log(theName);
+console.log(theAge);
+console.log(theTitle);
+console.log(theCountry);
+// 
+
+({theName, theAge, theTitle, theCountry} = user); // لانه اوبجيكت لازم اقواس دائريه وقت استبدال القيم للجمله كامله
+console.log(theName);
+console.log(theAge);
+console.log(theTitle);
+console.log(theCountry);
+// 
+
+// ============================================ 119
