@@ -6,4 +6,17 @@ let myFriends = ["Ahmed", "Sayed", "Ali", ["Shady", "Amr", ["Mohammed", "Gamal"]
 // b = myFriends[3][2][1];
 let [, , ,[a, ,[, b]]] = myFriends;  // هو سوو الطريقه هذي
 console.log(a);
-console.log(b)
+console.log(b);
+
+// ============================================ 117
+// Destructuring Array => Swapping Variables
+
+let Book = "Video";
+let Video = "Book";
+
+[Book, Video] = [Video, Book];
+
+console.log(Book);
+console.log(Video);
+
+// ============================================ 118
