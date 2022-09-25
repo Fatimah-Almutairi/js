@@ -82,3 +82,5 @@ console.log(`My CSS Skill Progress Is ${css}`);
 const {html: skillOne, css: skillTwo} = user1.skills;
 console.log(`My HTML Skill Progress Is ${skillOne}`);
 console.log(`My CSS Skill Progress Is ${skillTwo}`);
+
+// ============================================ 120
