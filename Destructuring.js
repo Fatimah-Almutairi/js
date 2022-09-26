@@ -84,3 +84,9 @@ console.log(`My HTML Skill Progress Is ${skillOne}`);
 console.log(`My CSS Skill Progress Is ${skillTwo}`);
 
 // ============================================ 120
+
+function showDetails ({theName, theAge, skills: {css}} = user){
+    console.log(`Your Name Is ${theName}`);
+    console.log(`Your Age Is ${theAge}`);
+    console.log(`Your CSS Skills Progress Is ${}`);
+}
