@@ -105,9 +105,13 @@ const user2 = {
 };
 
 const {
-    theName: nm,
+    theName: nm,  // فايدته انه ابي اغير اسم المتغير واناديه بالاختصار هذا 
     theAge: ag,
     skills: [one, two, three],
     addresses: {KSA : sa},
 } = user2;
 
+console.log(`Your Name Is ${nm}`);
+console.log(`Your Age Is ${ag}`);
+console.log(`Your Skills Is ${one}, ,${three}`);
+console.log(`Your live In ${sa}`);
