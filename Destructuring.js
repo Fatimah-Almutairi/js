@@ -87,12 +87,12 @@ console.log(`My CSS Skill Progress Is ${skillTwo}`);
 showDetails(user1);
 
 function show(obj){
-    console.log(`Your Name Is ${obj.theName}`);
+    console.log(`Your Name Is ${obj.theName} from first function`);
     console.log(`Your CSS Skills Progress Is ${obj.skill.css}`);
 
 }
 function showDetails ({theName, theAge, skills: {css}} = user1){
-    console.log(`Your Name Is ${theName}`);
+    console.log(`Your Name Is ${theName} from second function`);
     console.log(`Your Age Is ${theAge}`);
     console.log(`Your CSS Skills Progress Is ${css}`);
 }
@@ -121,3 +121,5 @@ console.log(`Your Name Is ${nm}`);
 console.log(`Your Age Is ${ag}`);
 console.log(`Your Skills Is ${one}, ,${three}`);
 console.log(`Your live In ${sa}`);
+
+// ============================================ 123
