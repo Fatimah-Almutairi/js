@@ -103,3 +103,11 @@ const user2 = {
         anyware: "Null",
     },
 };
+
+const {
+    theName: nm,
+    theAge: ag,
+    skills: [one, two, three],
+    addresses: {KSA : sa},
+} = user2;
+
