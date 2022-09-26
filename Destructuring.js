@@ -93,3 +93,13 @@ function showDetails ({theName, theAge, skills: {css}} = user){
 
 
 // ============================================ 121
+
+const user2 = {
+    theName: "Fatimah",
+    theAge: 26,
+    skills: ["html", "css", "JavaScript"],
+    addresses : {
+        KSA: "Riyadh",
+        anyware: "Null",
+    },
+};
