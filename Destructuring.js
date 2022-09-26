@@ -90,3 +90,6 @@ function showDetails ({theName, theAge, skills: {css}} = user){
     console.log(`Your Age Is ${theAge}`);
     console.log(`Your CSS Skills Progress Is ${}`);
 }
+
+
+// ============================================ 121
