@@ -122,4 +122,12 @@ console.log(`Your Age Is ${ag}`);
 console.log(`Your Skills Is ${one}, ,${three}`);
 console.log(`Your live In ${sa}`);
 
-// ============================================ 123
+// ============================================ 122 Challenge
+
+let chosen = 1;
+
+let myFriend = [
+    {title: "Fatimah", age: 26, available: true, skills: ['HTML', 'CSS']},
+    {title: "Bassam", age: 9, available: false, skills: ['angray', 'cray']},
+    {title: "Youssef", age: 16, available: true, skills: ['Player', 'nothing']}
+];
