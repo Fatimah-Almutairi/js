@@ -124,10 +124,23 @@ console.log(`Your live In ${sa}`);
 
 // ============================================ 122 Challenge
 
-let chosen = 1;
+let chosen = 2;
 
 let myFriend = [
-    {title: "Fatimah", age: 26, available: true, skills: ['HTML', 'CSS']},
-    {title: "Bassam", age: 9, available: false, skills: ['angray', 'cray']},
-    {title: "Youssef", age: 16, available: true, skills: ['Player', 'nothing']}
+    {title: "Fatimah", age: 26, available: true, skillss: ['HTML', 'CSS']},
+    {title: "Bassam", age: 9, available: false, skillss: ['angray', 'cray']},
+    {title: "Youssef", age: 16, available: true, skillss: ['Player', 'nothing']}
 ];
+
+if(chosen === 1) {
+   [{title, age, available , skillss}]= myFriend;
+}if (chosen === 2) {
+   [, {title, age, available, skillss},]= myFriend;
+} else {
+    
+}
+
+console.log(title);
+console.log(age);
+console.log(available);
+console.log(skillss);
