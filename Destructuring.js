@@ -137,7 +137,7 @@ if(chosen === 1) {
 }if (chosen === 2) {
    [, {title, age, available, skillss},]= myFriend;
 } else {
-    
+    [, ,{title, age, available, skillss}]= myFriend;
 }
 
 console.log(title);
