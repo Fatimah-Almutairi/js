@@ -46,6 +46,8 @@ myUniqueData.clear();
 console.log(myUniqueData);
 console.log(myUniqueData.size);
 
+// =====================================  124
+
 /*
   - Set vs WeakSet
   "
