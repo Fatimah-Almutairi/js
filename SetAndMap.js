@@ -101,3 +101,5 @@ console.log("#".repeat(20));
 let myws = new WeakSet([{ A: 1, B: 2 }]);
 
 console.log(myws);
+
+// =====================================  125
