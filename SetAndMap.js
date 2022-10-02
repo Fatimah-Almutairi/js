@@ -144,7 +144,7 @@ let myNewObject = {
 
 console.log(myNewObject[10]);
 
-let myNewMap = new Map();
+let myNewMap = new Map();  // ممكن نضيف العناصر داخل القوسين هذولي او بااستخدام السيت نفس المكتوب 
 myNewMap.set(10, "Number");
 myNewMap.set("10", "String");
 myNewMap.set(true, "Boolean");
