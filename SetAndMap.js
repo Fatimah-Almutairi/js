@@ -179,27 +179,62 @@ let MyMap = new Map([
     [false, "Boolean"],
   ]);
   
-  // myMap.set(10, "Number");
-  // myMap.set("Name", "String");
+  // MyMap.set(10, "Number");
+  // MyMap.set("Name", "String");
   
-  console.log(myMap);
+  console.log(MyMap);
   
-  console.log(myMap.get(10));
-  console.log(myMap.get("Name"));
-  console.log(myMap.get(false));
-  
-  console.log("####");
-  
-  console.log(myMap.has("Name"));
+  console.log(MyMap.get(10));
+  console.log(MyMap.get("Name"));
+  console.log(MyMap.get(false));
   
   console.log("####");
   
-  console.log(myMap.size);
+  console.log(MyMap.has("Name"));
   
-  console.log(myMap.delete("Name"));
+  console.log("####");
   
-  console.log(myMap.size);
+  console.log(MyMap.size);
   
-  myMap.clear();
+  console.log(MyMap.delete("Name"));
   
-  console.log(myMap.size);
+  console.log(MyMap.size);
+  
+  MyMap.clear();
+  
+  console.log(MyMap.size);
+
+// =====================================  127
+
+/*
+  - Map vs WeakMap
+  "
+    WeakMap Allows Garbage Collector To Do Its Task But Not Map.
+  "
+  --
+  Map     => Key Can Be Anything
+  WeakMap => Key Can Be Object Only
+  --
+*/
+
+let mapUser = { theName: "Elzero" };
+
+let myMap1 = new Map();
+
+myMap1.set(mapUser, "Object Value");
+
+mapUser = null; // Override The Reference
+
+console.log(myMap1);
+
+console.log("#".repeat(20));
+
+let wMapUser = { theName: "Elzero" };
+
+let myWeakMap = new WeakMap();
+
+myWeakMap.set(wMapUser, "Object Value");
+
+wMapUser = null; // Override The Reference
+
+console.log(myWeakMap);
