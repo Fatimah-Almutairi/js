@@ -130,7 +130,7 @@ console.log(myws);
 */
 
 let myObject = {};
-let myEmptyObject = Object.create(null);
+let myEmptyObject = Object.create(null);  // هنا يرجع اوبجكت فاضي بدون الكيي 
 let myMap = new Map();
 
 console.log(myObject);
@@ -139,7 +139,7 @@ console.log(myMap);
 
 let myNewObject = {
   10: "Number",
-  "10": "String",
+  "10": "String", // يرجع السطر هذا بس لانه كتب على اللي فوق واعتبر العشره هذي رقم مو نص
 };
 
 console.log(myNewObject[10]);
