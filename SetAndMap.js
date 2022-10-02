@@ -35,8 +35,8 @@ console.log(myUniqueData.size);
 console.log(myData[0]);
 console.log(myUniqueData[0]);
 
-// myUniqueData.delete(2);
-console.log(myUniqueData.delete(2));
+// myUniqueData.delete(2); // هنا بيحذف العنصر اللي بين القوسين
+console.log(myUniqueData.delete(2));  // هنا داخل الطباعه يرجع صح او خطا اذا موجود او لا يشبهه الهاز
 
 console.log(myUniqueData);
 console.log(myUniqueData.size);
