@@ -24,6 +24,7 @@ let myUniqueData = new Set();
 
 myUniqueData.add(1).add(1).add(1);
 myUniqueData.add(2).add(3).add("A");
+console.log(myUniqueData.has("A")); // مفروض يرجع ترو يعني موجود العنصر هذا 
 
 console.log(`Is Set Has => A ${myUniqueData.has("a".toUpperCase())}`);
 
