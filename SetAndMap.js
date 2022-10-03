@@ -260,12 +260,12 @@ console.log(
 );
 console.log(Array.from("12345", (n) => +n + +n));
 
-let myArray = [1, 1, 1, 2, 3, 4];
+let myArray = [1, 1, 1, 2, 3, 4]; // هنا مصفوفه عاديه 
 
-let mySet1 = new Set(myArray);
+let mySet1 = new Set(myArray); // هنا حطيتها داخل متغير وحولتها لسيت يعني بس عناصر مميزه بدون تكرار
 
-console.log(Array.from(mySet1));
-
+console.log(Array.from(mySet1)); // هنا استعملت عليها الاري فروم 
+// السطر اللي تحت يعطي نفس نتيجه اللي فوقه
 // console.log([...new Set(myArray)]); // Future بيتلكم عنه قدام بالدروس الجايه 
 
 function af() {
