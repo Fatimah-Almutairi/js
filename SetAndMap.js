@@ -262,11 +262,11 @@ console.log(Array.from("12345", (n) => +n + +n));
 
 let myArray = [1, 1, 1, 2, 3, 4];
 
-let mySet = new Set(myArray);
+let mySet1 = new Set(myArray);
 
-console.log(Array.from(mySet));
+console.log(Array.from(mySet1));
 
-// console.log([...new Set(myArray)]); // Future
+// console.log([...new Set(myArray)]); // Future بيتلكم عنه قدام بالدروس الجايه 
 
 function af() {
   return Array.from(arguments);
