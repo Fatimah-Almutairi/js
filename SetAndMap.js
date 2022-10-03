@@ -255,7 +255,7 @@ console.log(myWeakMap);
 console.log(Array.from("Osama"));
 console.log(
   Array.from("12345", function (n) {
-    return +n + +n;
+    return +n + +n; //حطيت قدام الرقم موجب عشان يقدم يجمعه ويعامله كرقم لانه داخل تنصيص كنص  unary operation طريقة الموجب تسمى 
   })
 );
 console.log(Array.from("12345", (n) => +n + +n));
