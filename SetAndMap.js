@@ -360,3 +360,5 @@ let checkNumberInRange = nums.some(function (e) {
 }, range);
 
 console.log(checkNumberInRange);
+
+// =====================================  131
