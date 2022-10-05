@@ -352,7 +352,7 @@ let range = {
   min: 10,
   max: 20,
 };
-
+// هنا الفنكشن بيطلع الرينج حق المصفوفه بين الارقام اللي محدده بالاوبجكت ويرجع صح او خطا اول مايحصل نتيجه 
 let checkNumberInRange = nums.some(function (e) {
   // console.log(this.min);
   // console.log(this.max);
