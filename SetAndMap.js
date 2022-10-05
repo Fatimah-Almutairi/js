@@ -332,8 +332,8 @@ let myNumber = 10;
 // });
 
 let check = nums.some(function (e) {
-  return e > this;
-}, myNumber);
+  return e > this;  // هنا الذيس هو اللي ماي نمبر يعني عشره
+}, myNumber); 
 
 // let check = nums.some((e) => e > 5);
 
@@ -362,3 +362,4 @@ let checkNumberInRange = nums.some(function (e) {
 console.log(checkNumberInRange);
 
 // =====================================  131
+
