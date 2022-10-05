@@ -335,7 +335,7 @@ let check = nums.some(function (e) {
   return e > this;  // هنا الذيس هو اللي ماي نمبر يعني عشره
 }, myNumber); 
 
-// let check = nums.some((e) => e > 5);
+// let check = nums.some((e) => e > 5); // هنا نفس الفنكشن الاولى بداية الدرس بس بطريقه الاروو فنكشن
 
 console.log(check);
 
