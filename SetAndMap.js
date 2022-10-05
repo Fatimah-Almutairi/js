@@ -363,3 +363,9 @@ console.log(checkNumberInRange);
 
 // =====================================  131
 
+const locations = {
+    20:
+    10:
+    30:
+}
+
