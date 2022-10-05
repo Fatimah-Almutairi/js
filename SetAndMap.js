@@ -391,8 +391,8 @@ const locations = {
   
   console.log(locationArrayNumbers);
   
-  let check = locationArrayNumbers.every(function (e) {
+  let Check = locationArrayNumbers.every(function (e) {
     return e > this;
   }, mainLocation);
   
-  console.log(check);
+  console.log(Check);
