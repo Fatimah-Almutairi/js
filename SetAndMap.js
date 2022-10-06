@@ -410,12 +410,12 @@ console.log([..."Osama"]); // بالطريقه هذي اقدر اخلي تفرق
 let myArray1 = [1, 2, 3];
 let myArray2 = [4, 5, 6];
 
-let allArrays = [...myArray1, ...myArray2];
+let allArrays = [...myArray1, ...myArray2]; // هنا وزعت العناصر وجمعتها داخل مصفوفه وحده
 console.log(allArrays);
 
 // Copy Array
 
-let copiedArray = [...myArray1];
+let copiedArray = [...myArray1]; // هنا عادي سويت نسخه منها بمتغير جديد 
 console.log(copiedArray);
 
 // Push Inside Array
