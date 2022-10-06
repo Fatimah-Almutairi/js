@@ -384,4 +384,10 @@ const locations = {
   let mainLocation = 15;
 
 let locationsArray = Object.keys(locations).map( (n) => +n);
-console.log(locationsArray)
+console.log(locationsArray);
+
+let Check = locationsArray.every(function (e) {
+    return e > this;
+}, mainLocation);
+
+console.log(Check);
