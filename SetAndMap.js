@@ -382,17 +382,6 @@ const locations = {
   };
   
   let mainLocation = 15;
-  
-  let locationsArray = Object.keys(locations);
-  
-  console.log(locationsArray);
-  
-  let locationArrayNumbers = locationsArray.map((n) => +n);
-  
-  console.log(locationArrayNumbers);
-  
-  let Check = locationArrayNumbers.every(function (e) {
-    return e > this;
-  }, mainLocation);
-  
-  console.log(Check);
+
+let locationsArray = Object.keys(locations).map( (n) => +n);
+console.log(locationsArray)
