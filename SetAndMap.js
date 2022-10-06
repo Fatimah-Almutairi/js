@@ -401,9 +401,9 @@ console.log(Check);
 
 // Spread With String => Expand String
 
-console.log("Osama");
-console.log(..."Osama");
-console.log([..."Osama"]);
+console.log("Osama"); // هنا بيطبع عادي 
+console.log(..."Osama");  // بس هنا يوزعه ويفرق العناصر لحال
+console.log([..."Osama"]); // بالطريقه هذي اقدر اخلي تفرقت الحروف داخل مصفوفه ويصير كل حرف في انديكس 
 
 // Concatenate Arrays
 
