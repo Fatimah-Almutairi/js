@@ -422,7 +422,8 @@ console.log(copiedArray);
 
 let allFriends = ["Osama", "Ahmed", "Sayed"];
 let thisYearFriends = ["Sameh", "Mahmoud"];
-
+//  هنا سويت اضافه على المصفوفه بعناصر زياده تكون في متغير او ممكن مصفوفه ثانيه وسويت لها سبيلت
+//  عشان تكون في مصفوفه وحده مايصير مصفوفه داخل مصفوفه
 allFriends.push(...thisYearFriends);
 
 console.log(allFriends);
