@@ -431,7 +431,7 @@ console.log(allFriends);
 // Use With Math Object
 
 let myNums = [10, 20, -100, 100, 1000, 500];
-console.log(Math.max(...myNums));
+console.log(Math.max(...myNums)); // هنا فرقهم وسووا سبيليت عشان يبي الاكبر من الارقام لازم اسوي سبيلت لهم 
 
 // Spread With Objects => Merge Objects
 
@@ -444,4 +444,4 @@ let objTwo = {
   d: 4,
 };
 
-console.log({ ...objOne, ...objTwo, e: 5 });
+console.log({ ...objOne, ...objTwo, e: 5 }); // هنا جمعت الاوبجكت الاثنين مره وحده عشان كذا استعملت سبيلت 
