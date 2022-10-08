@@ -446,7 +446,7 @@ let objTwo = {
 
 console.log({ ...objOne, ...objTwo, e: 5 }); // هنا جمعت الاوبجكت الاثنين مره وحده عشان كذا استعملت سبيلت 
 
-// 
+// =====================================  133
 
 /*
   Map And Set + What You Learn => Challenge
