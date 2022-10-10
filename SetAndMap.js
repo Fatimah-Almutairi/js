@@ -467,5 +467,6 @@ console.log({ ...objOne, ...objTwo, e: 5 }); // هنا جمعت الاوبجكت
 let n1 = [10, 30, 10, 20];
 let n2 = [30, 20, 10];
 
-console.log(new Set([...n1]).size* new Array(...n1, ...n2).length*Math.min(...n1)); // 210
+console.log(new Set([...n2]).size* new Array(...n1, ...n2).length*Math.min(...n1)); // 210
+//  اللي فهمت بالبدايه 
 
