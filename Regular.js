@@ -68,3 +68,46 @@ console.log(specialNums.match(specialNumsRe));
 let practice = "Os1 Os1Os Os2 Os8 Os8Os";
 let practiceRe = /Os[5-9]Os/g;
 console.log(practice.match(practiceRe));
+
+// =================================================================  137
+
+/*
+  Regular Expression
+
+  Ranges
+
+  - Part 1
+  (X|Y) => X Or Y
+  [0-9] => 0 To 9
+  [^0-9] => Any Character Not 0 To 9
+  Practice
+
+  - Part 2
+  [a-z]
+  [^a-z]
+  [A-Z]
+  [^A-Z]
+  [abc]
+  [^abc]
+
+*/
+
+let MyString = "AaBbcdefG123!234%^&*";
+let atozSmall = /[a-z]/g;
+let NotAtozSmall = /[^a-z]/g;
+let atozCapital = /[A-Z]/g;
+let NotAtozCapital = /[^A-Z]/g;
+let aAndcAnde = /[ace]/g;
+let NotaAndcAnde = /[^ace]/g;
+let lettersCapsAndSmall = /[a-zA-Z]/g;
+let numsAndSpecials = /[^a-zA-Z]/g;
+let specials = /[^a-zA-Z0-9]/g;
+console.log(MyString.match(atozSmall));
+console.log(MyString.match(NotAtozSmall));
+console.log(MyString.match(atozCapital));
+console.log(MyString.match(NotAtozCapital));
+console.log(MyString.match(aAndcAnde));
+console.log(MyString.match(NotaAndcAnde));
+console.log(MyString.match(lettersCapsAndSmall));
+console.log(MyString.match(numsAndSpecials));
+console.log(MyString.match(specials));
