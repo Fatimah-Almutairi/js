@@ -127,7 +127,7 @@ console.log(MyString.match(specials));
 */
 
 let email = 'O@@@g...com O@g.com O@g.net A@Y.com O-g.com o@s.org 1@1.com';
-let dot = /./g;
+let dot = /./g;  //يرجع كل العناصر مع المسافة ماعادا السطر الجديد 
 let word = /\w/g;
 let valid = /\w@\w.(com|net)/g;
 console.log(email.match(dot));
