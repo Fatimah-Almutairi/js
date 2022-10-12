@@ -111,3 +111,5 @@ console.log(MyString.match(NotaAndcAnde));
 console.log(MyString.match(lettersCapsAndSmall));
 console.log(MyString.match(numsAndSpecials));
 console.log(MyString.match(specials));
+
+// =================================================================  138
