@@ -133,3 +133,5 @@ let valid = /\w@\w.(com|net)/g; // هنا الكابتيل عكس اللي فو�
 console.log(email.match(dot));
 console.log(email.match(word));
 console.log(email.match(valid));
+
+// =================================================================  138
